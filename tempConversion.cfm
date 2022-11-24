@@ -1,4 +1,4 @@
-<cfform action="processForm.cfm" method="POST">
+<form action="processForm.cfm" method="POST">
     Enter the temperature:
     <input name="temperature" type="text"><br>
     <br>
@@ -8,4 +8,4 @@
         <option value="FtoC">Farenheit to Celsius</option>
     </select><p>
     <input name="submitform" type="submit" value="Submit">
-</cfform>
+</form>
